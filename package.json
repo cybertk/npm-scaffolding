@@ -2,7 +2,7 @@
   "name": "node-scaffolding",
   "version": "0.0.0",
   "description": "Mongoose ORM Document Query Pagination based on range query",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },

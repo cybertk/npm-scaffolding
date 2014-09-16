@@ -1,4 +1,5 @@
-chai = require('chai')
+require '..'
+chai = require 'chai'
 
 chai.should()
 
