@@ -7,8 +7,9 @@ module.exports = (grunt) ->
   ###
   require('jit-grunt') grunt
 
-  grunt.loadNpmTasks('grunt-contrib-coffee');
-  grunt.loadNpmTasks('grunt-mocha-test');
+  grunt.loadNpmTasks 'grunt-contrib-coffee'
+  grunt.loadNpmTasks 'grunt-mocha-test'
+  grunt.loadNpmTasks 'grunt-coveralls'
 
   grunt.initConfig
 
@@ -27,10 +28,10 @@ module.exports = (grunt) ->
 
     coffee:
       compile:
-        expand: true,
-        flatten: true,
-        src: ['src/*.coffee'],
-        dest: 'lib/',
+        expand: true
+        flatten: true
+        src: ['src/*.coffee']
+        dest: 'lib/'
         ext: '.js'
 
     mochaTest:
@@ -40,6 +41,10 @@ module.exports = (grunt) ->
           require: 'coffee-script/register'
         src: ['test/**/*.coffee']
 
+    coveralls:
+      options:
+        src: 'coverage-results/lcov.info'
+
   grunt.registerTask "default", [
     "watch"
   ]
@@ -47,6 +52,7 @@ module.exports = (grunt) ->
   grunt.registerTask "test", [
     "coffee"
     "mochaTest"
+    "coveralls"
   ]
 
   return
