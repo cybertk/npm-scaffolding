@@ -1,5 +1,5 @@
 {
-  "name": "node-scaffolding",
+  "name": "npm-scaffolding",
   "version": "0.0.0",
   "description": "Mongoose ORM Document Query Pagination based on range query",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cybertk/node-scaffolding.git"
+    "url": "https://github.com/cybertk/npm-scaffolding.git"
   },
   "keywords": [
     "mongoose",
@@ -24,9 +24,9 @@
   "author": "Quanlong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cybertk/node-scaffolding/issues"
+    "url": "https://github.com/cybertk/npm-scaffolding/issues"
   },
-  "homepage": "https://github.com/cybertk/node-scaffolding",
+  "homepage": "https://github.com/cybertk/npm-scaffolding",
   "devDependencies": {
     "chai": "^1.9.1",
     "coffee-script": "^1.8.0",

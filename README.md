@@ -1,10 +1,10 @@
-## node-scaffolding
+## npm-scaffolding
 
 Scaffolding for npm package
 
-[![Build Status](http://img.shields.io/travis/cybertk/node-scaffolding.svg?style=flat)](https://travis-ci.org/cybertk/node-scaffolding)
-[![Dependency Status](https://david-dm.org/cybertk/node-scaffolding.png)](https://david-dm.org/cybertk/node-scaffolding)
-[![Coverage Status](https://coveralls.io/repos/cybertk/node-scaffolding/badge.png?branch=master)](https://coveralls.io/r/cybertk/node-scaffolding?branch=master)
+[![Build Status](http://img.shields.io/travis/cybertk/npm-scaffolding.svg?style=flat)](https://travis-ci.org/cybertk/npm-scaffolding)
+[![Dependency Status](https://david-dm.org/cybertk/npm-scaffolding.png)](https://david-dm.org/cybertk/npm-scaffolding)
+[![Coverage Status](https://coveralls.io/repos/cybertk/npm-scaffolding/badge.png?branch=master)](https://coveralls.io/r/cybertk/npm-scaffolding?branch=master)
 
 ## Features
 
@@ -15,10 +15,10 @@ Scaffolding for npm package
 
 [mffr][] is required.
 
-    $ git clone https://github.com/cybertk/node-scaffolding.git
-    $ cd node-scaffolding
+    $ git clone https://github.com/cybertk/npm-scaffolding.git
+    $ cd npm-scaffolding
     $ mv README.app.md README.md
-    $ mffr node-scaffolding <your_package_name>
+    $ mffr npm-scaffolding <your_package_name>
 
 [mffr]: https://github.com/cybertk/mffr
 
