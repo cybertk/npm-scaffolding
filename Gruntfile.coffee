@@ -17,10 +17,12 @@ module.exports = (grunt) ->
       all:
         files: [
           "Gruntfile.coffee"
-          "src/*.coffee"
+          "src/**/*.coffee"
+          "test/**/*.coffee"
         ]
         tasks: [
           "coffee"
+          "mochaTest"
         ]
         options:
           nospawn: true
@@ -42,11 +44,11 @@ module.exports = (grunt) ->
 
   grunt.registerTask "default", [
     "watch"
+    "mochaTest"
   ]
 
   grunt.registerTask "test", [
     "coffee"
-    "mochaTest"
   ]
 
   return
