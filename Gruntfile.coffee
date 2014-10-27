@@ -29,10 +29,10 @@ module.exports = (grunt) ->
 
     coffee:
       compile:
-        expand: true,
-        flatten: true,
-        src: ['src/*.coffee'],
-        dest: 'lib/',
+        expand: true
+        flatten: true
+        src: ['src/*.coffee']
+        dest: 'lib/'
         ext: '.js'
 
     mochaTest:
