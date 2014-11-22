@@ -2,10 +2,10 @@
 
 Scaffolding for npm package
 
-[![Build Status](http://img.shields.io/travis/cybertk/npm-scaffolding.svg?style=flat)](https://travis-ci.org/cybertk/npm-scaffolding)
-[![Dependency Status](https://david-dm.org/cybertk/npm-scaffolding.png)](https://david-dm.org/cybertk/npm-scaffolding)
+[![Build Status](https://travis-ci.org/cybertk/npm-scaffolding.svg?branch=master)](https://travis-ci.org/cybertk/npm-scaffolding)
+[![Dependency Status](https://david-dm.org/cybertk/npm-scaffolding.svg)](https://david-dm.org/cybertk/npm-scaffolding)
 [![devDependency Status](https://david-dm.org/cybertk/npm-scaffolding/dev-status.svg)](https://david-dm.org/cybertk/npm-scaffolding#info=devDependencies)
-[![Coverage Status](https://coveralls.io/repos/cybertk/npm-scaffolding/badge.png?branch=master)](https://coveralls.io/r/cybertk/npm-scaffolding?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/cybertk/npm-scaffolding.svg)](https://coveralls.io/r/cybertk/npm-scaffolding)
 
 ## Features
 
