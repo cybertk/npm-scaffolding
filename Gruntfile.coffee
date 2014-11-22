@@ -59,6 +59,7 @@ module.exports = (grunt) ->
 
   grunt.registerTask 'test', [
     'coffeecov'
+    'mochaTest'
     'uploadCoverage'
   ]
 
