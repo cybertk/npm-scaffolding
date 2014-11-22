@@ -33,6 +33,7 @@
     "coveralls": "^2.11.2",
     "grunt": "~0.4.5",
     "grunt-cli": "~0.1.13",
+    "grunt-coffeecov": "^0.1.5",
     "grunt-contrib-coffee": "~0.12.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-mocha-test": "~0.12.3",
