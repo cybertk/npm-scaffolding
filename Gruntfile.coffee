@@ -30,6 +30,14 @@ module.exports = (grunt) ->
         dest: 'lib/'
         ext: '.js'
 
+    coffeelint:
+      all:
+        src: [
+          'Gruntfile.coffee'
+          'src/**/*.coffee'
+          'test/**/*.coffee'
+        ]
+
     coffeecov:
       compile:
         src: 'src'
@@ -37,7 +45,8 @@ module.exports = (grunt) ->
 
     shell:
       coveralls:
-        command: 'cat coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js src'
+        command: 'cat coverage/coverage.lcov |
+            ./node_modules/coveralls/bin/coveralls.js src'
 
     mochaTest:
       test:
@@ -58,6 +67,7 @@ module.exports = (grunt) ->
   ]
 
   grunt.registerTask 'test', [
+    'coffeelint'
     'coffeecov'
     'mochaTest'
     'uploadCoverage'
