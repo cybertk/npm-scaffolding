@@ -57,7 +57,7 @@ module.exports = (grunt) ->
 
 
   grunt.registerTask 'uploadCoverage', ->
-    return grunt.log.ok 'Bypass uploading' unless process.env['CI'] is 'true'
+    return grunt.log.ok 'Bypass uploading' unless process.env['TRAVIS'] is 'true'
 
     grunt.task.run 'shell:coveralls'
 
