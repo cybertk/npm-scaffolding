@@ -11,6 +11,7 @@ Scaffolding for npm package
 
 - Coffee-script
 - Grunt
+- [Publish to npm](http://docs.travis-ci.com/user/deployment/npm/) with Travis
 
 ## Usage
 
@@ -22,6 +23,7 @@ Scaffolding for npm package
     $ mffr npm-scaffolding <your_package_name>
 
 [mffr]: https://github.com/cybertk/mffr
+
 
 ## Contribution
 
